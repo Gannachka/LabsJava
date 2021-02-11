@@ -1,5 +1,3 @@
-package main.java;
-
 import main.java.person.student.aaa.*;
 
 import java.util.Date;

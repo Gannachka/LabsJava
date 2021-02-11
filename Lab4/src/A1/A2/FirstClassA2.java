@@ -1,6 +1,5 @@
 package A1.A2;
 
-import com.sun.xml.internal.fastinfoset.tools.FI_DOM_Or_XML_DOM_SAX_SAXEvent;
 import main.B1.B2.*;
 
 public class FirstClassA2 extends FirstClassB2 {

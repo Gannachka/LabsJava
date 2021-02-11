@@ -8,39 +8,38 @@ import java.util.Date;
 public class AAA implements Student {
     public int LimitUniversityLength=200;
 
-    @Override
+
     public String getSurname() {
         return surname;
     }
 
-    @Override
+
     public void setSurname(String surname) {
         this.surname = surname;
     }
     private String surname;
 
-    @Override
     public String getName() {
         return name;
     }
-    @Override
+
     public void setName(String name) {
         this.name = name;
     }
     private String name;
 
 
-    @Override
+
     public String getFathername() {
         return fatherName;
     }
 
-    @Override
+
     public Date getBirthday() {
         return birthday;
     }
 
-    @Override
+
     public void setFathername(String fatherName) {
         this.fatherName=fatherName;
     }
@@ -53,24 +52,24 @@ public class AAA implements Student {
 
     private Date birthday;
 
-    @Override
+
     public Date getFirstDate() {
         return firstDate ;
     }
 
-    @Override
+
     public void setFirstDate(Date firstDate) {
         this.firstDate = firstDate;
     }
 
     private Date firstDate;
 
-    @Override
+
     public String getUniversity() {
         return university;
     }
 
-    @Override
+
     public void setUniversity(String university) {
         this.university = university;
     }

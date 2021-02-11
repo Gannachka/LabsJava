@@ -1,5 +1,3 @@
-package main.java;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -12,9 +10,9 @@ public class Main {
 	a3=3.5;
 	b3=3.4;
 
-	System.out.println(Math.pow(a1,2)-Math.pow(b1,2));
-	System.out.println(Math.pow(a2,3)-Math.pow(b2,3));
-    System.out.println(Math.pow(a3,4)-Math.pow(b3,4));
+	System.out.println("a1^2-b1^2= "+ (Math.pow(a1,2)-Math.pow(b1,2)));
+	System.out.println("a2^3-b2^3= "+(Math.pow(a2,3)-Math.pow(b2,3)));
+    System.out.println("a3^4 - b2^3= "+(Math.pow(a3,4)-Math.pow(b3,4)));
 
     System.out.println(c);
     System.out.println(c1);
