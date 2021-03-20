@@ -1,13 +1,10 @@
-package main.java;
-
 public class Main {
 
     public static void main(String[] args) {
         CCC objectWithoutParameters= new CCC();
         CCC objectWithParameters = new CCC(10,9);
-        System.out.println(objectWithParameters.sum());
-        System.out.println(objectWithoutParameters.ssub(11,8));
-        System.out.println(objectWithoutParameters.ssub(8,11));
+        System.out.println("Sum "+ objectWithParameters.sum());
+        System.out.println("Ssub = "+ objectWithoutParameters.ssub(11,8));
         DDD objectWithParametersAndSuper=new DDD(25,10);
         System.out.println(objectWithParameters.sum());
         System.out.println(objectWithParametersAndSuper.calc());
@@ -52,6 +49,7 @@ class DDD extends CCC{
       this.x=x;
       this.y=y;
   }
+  @Override
   public int sum(){
       int summ=super.sum();
       return this.x+this.y+summ;

@@ -16,6 +16,5 @@ public class Main {
         System.out.println("Birthday: "+ aaa.getBirthday().getDate()+"."+aaa.getBirthday().getMonth()+"."+aaa.getBirthday().getYear());
         System.out.println("University Admission: "+ aaa.getFirstDate().getDate()+".0"+aaa.getFirstDate().getMonth()+"."+aaa.getFirstDate().getYear());
         System.out.println(aaa.getUniversity());
-
     }
 }

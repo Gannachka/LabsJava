@@ -14,10 +14,5 @@ public class FirstClassA2 extends FirstClassB2 {
         System.out.println(this.getClass().getName()+" "+this.parameterA2);
     }
 
-    public static void main(String[] args) {
 
-        FirstClassA2 firstClassA2=new FirstClassA2(154);
-        firstClassA2.printInformationAboutClass();
-
-    }
 }

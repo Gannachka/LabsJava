@@ -1,5 +1,3 @@
-package main.java;
-
 public class Main {
 
     public enum Season {
@@ -15,7 +13,6 @@ public class Main {
 
         public String getDescription() {return description;}
     };
-
 
     public enum FiveMonths{
         Jan,
@@ -67,29 +64,29 @@ public class Main {
         System.out.println("(str9 == str8) = "+ (str9 == str8));
 
 
-        String str10 = new String("Р§РµР»РѕРІРµРєР° РЅРµРІРѕР·РјРѕР¶РЅРѕ С‡РµРјСѓ-РЅРёР±СѓРґСЊ РЅР°СѓС‡РёС‚СЊ, РµРіРѕ РјРѕР¶РЅРѕ СѓР±РµРґРёС‚СЊ");
-        System.out.println(str10.indexOf('j'));
-        System.out.println(str10.indexOf('Рѕ'));
-        System.out.println(str10.lastIndexOf('o')) ;
-        System.out.println(str10.indexOf('Рѕ',5));
-        System.out.println(str10.lastIndexOf('Рѕ',5));
-        System.out.println(str10.lastIndexOf('Рѕ',14));
+        String str10 = new String("Человека невозможно чему-нибудь научить, его можно убедить");
+        System.out.println(str10.indexOf('а'));
+        System.out.println(str10.indexOf('о'));
+        System.out.println(str10.lastIndexOf('о')) ;
+        System.out.println(str10.indexOf('о',5));
+        System.out.println(str10.lastIndexOf('о',5));
+        System.out.println(str10.lastIndexOf('о',14));
 
-        String str11 = new String("Р›СѓС‡С€РёР№ РІРёРґ РЅР° СЌС‚РѕС‚ РіРѕСЂРѕРґ, РµСЃР»Рё СЃРµСЃС‚СЊ РІ Р±РѕРјР±Р°СЂРґРёСЂРѕРІС‰РёРє");
+        String str11 = new String("Лучший вид на этот город, если сесть в бомбардировщик");
         System.out.println(str11.substring(26));
         System.out.println(str11.substring(26,30));
 
-        String str12 = new String("РћС„С„С‚РѕРїРёРє -- Р»СЋР±РѕРµ СЃРµС‚РµРІРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ" +
-                "РІС‹С…РѕРґСЏС‰РµРµ Р·Р° СЂР°РјРєРё СЂР°РЅРµРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅРѕР№ С‚РµРјС‹");
-        System.out.println(str12.replace('С„','f'));
+        String str12 = new String("Оффтопик -- любое сетевое сообщение" +
+                "выходящее за рамки ранее установленной темы");
+        System.out.println(str12.replace('ф','f'));
         System.out.println(str12.toUpperCase());
         System.out.println(str12.toLowerCase());
 
         StringBuffer str15 = new StringBuffer();
-        str15.append("Р’ РіРѕСЂРѕРґРµ РЎРѕС‡Рё С‚С‘РјРЅС‹Рµ РЅРѕС‡Рё");
+        str15.append("В городе Сочи тёмные ночи");
         System.out.println("str15.length() = "+ str15.length());
         System.out.println("str15.capacity() = "+ str15.capacity());
-        str15.insert(21, "Рё С‚С‘РїР»С‹Рµ");
+        str15.insert(21, "и тёплые");
         System.out.println(str15);
         System.out.println("str15.length()"+str15.length());
         System.out.println("str15.capacity()"+str15.capacity());

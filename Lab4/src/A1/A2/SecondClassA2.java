@@ -8,9 +8,5 @@ public class SecondClassA2 {
     public void printInformationAboutClass(){
         System.out.println(getClass().getName()+this.parameterA2);
     }
-    public static void main(String[] args) {
-        SecondClassA2 secondClassA2=new SecondClassA2(154);
-        secondClassA2.printInformationAboutClass();
 
-    }
 }

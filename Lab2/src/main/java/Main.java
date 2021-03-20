@@ -1,7 +1,5 @@
 package main.java;
 
-import java.util.Random;
-
 public class Main {
 
 
@@ -38,7 +36,6 @@ public class Main {
 		}
 		public static void third() {
 		byte num=88;
-		System.out.println(num>>>2);
 		System.out.println(num<<=2);
 		System.out.println(num^=2);
 		System.out.println(num&2);

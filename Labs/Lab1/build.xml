@@ -1,0 +1,17 @@
+<project name="Lab1" default = "copy" >
+    <target name="init">
+        <echo message="Building Lab1 Project" />
+    </target>
+    <target name="create" depends ="init">
+        <delete dir= "C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\" />
+        <mkdir dir= "C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\" />
+        <mkdir dir= "C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\WEB-INF" />
+    </target>
+
+    <target name="copy" depends ="create">
+        <copy file= "D:\6_sem\Java\LabsJava\Labs\Lab1\WEB-INF\web.xml"
+              todir="C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\WEB-INF\ " />
+        <copy file= "D:\6_sem\Java\LabsJava\Labs\Lab1\index.html"
+              todir="C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\" />
+    </target>
+</project>

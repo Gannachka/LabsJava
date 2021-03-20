@@ -1,0 +1,12 @@
+Buildfile: D:\6_sem\Java\LabsJava\Labs\Lab1\build.xml
+
+init:
+     [echo] Building Lab1 Project
+
+create:
+   [delete] Deleting directory C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1
+    [mkdir] Created dir: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1
+    [mkdir] Created dir: C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\WEB-INF
+
+copy:
+     [copy] Copying 1 file to C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\Lab1\WEB-INF\ 
