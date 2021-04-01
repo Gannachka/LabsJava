@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75b6dbd5-8316-4b1c-a752-50791ef71a20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/AAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/AAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/ClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/ClassB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/ClassC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab5/src/main/java/person/student/aaa/SuperClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab7/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qQTzpWailQimitUUxm3NfN6fmH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b6dbd5-8316-4b1c-a752-50791ef71a20" name="Default Changelist" comment="" />
+      <created>1617011081109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617011081109</updated>
+      <workItem from="1617011082273" duration="270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1617011096744">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1617011096744" />
+    <state x="549" y="159" key="FileChooserDialogImpl" timestamp="1617011348697">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617011348697" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1617011232667">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1617011232667" />
+    <state x="209" y="101" key="new project wizard" timestamp="1617011350677">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="101" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1617011350677" />
+  </component>
+</project>

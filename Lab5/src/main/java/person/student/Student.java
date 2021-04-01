@@ -1,5 +1,6 @@
 package main.java.person.student;
 import main.java.person.Person;
+import main.java.person.student.aaa.IInterface;
 
 import java.util.Date;
 

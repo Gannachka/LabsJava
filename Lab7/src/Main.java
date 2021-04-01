@@ -8,8 +8,10 @@ public class Main {
     public static void main(String[] args)  {
 
         try {
+            AAA b = new AAA(null);
             AAA a = new AAA(5);
             a.methode(-8);
+
         }
         catch(ExceptionAAA1 e) {
             System.out.println("null");

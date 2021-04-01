@@ -3,7 +3,7 @@ import main.java.person.Person;
 import main.java.person.student.Student;
 import java.util.Date;
 
-public class AAA implements Student, Person {
+public class AAA implements Student, IInterface {
     public int LimitUniversityLength=200;
     private String surname;
     private String name;
@@ -58,5 +58,8 @@ public class AAA implements Student, Person {
 
     public void setUniversity(String university) {
         this.university = university;
+    }
+    public String Print(){
+        return "Hi";
     }
 }
