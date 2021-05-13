@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Servlet Page</title>
+</head>
+<body>
+<h1>Get Method SSS</h1>
+<!--//Task1-->
+<br><a href = "Sss?firstname=Hanna&lastname=Miklyaeva">Go to Sss Task1</a>
+<!--Task3-->
+<br><a href = "Sss?move=HTML">Go to Sss to go to HTML TASK3</a>
+<br><a href = "Sss?move=Ggg:HTML">Go to Sss to go to Ggg to go to HTML TASK4</a>
+<br><a href = "persondata.html"> Go to persondata </a>
+
+<!--Task2-->
+<h1>POST Form to Sss</h1>
+<form action="Sss" method = "post">
+    <table>
+        <tr> <td><label for = "firstname">firstname</label> </td>
+            <td> <input type = "text" id="firstname" name="firstname" size = "20"> </td>
+        </tr>
+        <tr> <td><label for = "lastname">lastname</label></td>
+            <td><input type = "text" id="lastname" name="lastname" size = "20"></td>
+        </tr>
+        <tr> <td><label for = "password">password</label></td>
+            <td><input type = "password" id="password"  name="password" size = "20"></td>
+        </tr>
+        <tr> <td>sex</td>
+            <td> <input type = "radio" name="sex" value ="mem" checked
+                    ="checked">mem
+                <input type = "radio" name="sex" value ="science">science
+                <input type = "radio" name="sex" value ="cdoPostSuper" >Current doPost Super
+                <input type = "radio" name="sex" value ="cdoPostUp" >Current doPost UP
+                <input type = "radio" name="sex" value ="cdoPostUpToGet" >Current doPost UP to doGet
+                <input type = "radio" name="sex" value ="printToPrint" >Current print and next sesrvlet print
+            </td>
+        </tr>
+        <tr> <td>Work Group</td>
+            <td> <input type = "radio" name="workGroup" value ="one" checked
+                    ="checked">Redefine
+                <input type = "radio" name="workGroup" value ="two">HttpClient
+                <input type = "radio" name="workGroup" value ="three">Redirection
+
+            </td>
+        </tr>
+    </table>
+    <br> <input type = "submit" name="press" value = "OK" size = "20">
+    <input type = "submit" name= "press" value = "Cancel" size = "20">
+</form>
+</body>
+</html>

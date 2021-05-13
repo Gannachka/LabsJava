@@ -1,0 +1,27 @@
+<project name="AS_3022SEA" default = "copy" >
+    <target name="init">
+        <echo message="Building AS_3022SEA Project" />
+        <property name="app" value="D:\6_sem\Java\LabsJava\Labs\Lab12"/>
+        <property name="server" value="C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\AS_3022SEA"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <delete verbose="true">
+            <fileset dir="${app}\WEB-INF\classes"/>
+        </delete>
+        <javac srcdir="${app}\java"
+               destdir="${app}\WEB-INF\classes"
+               classpath="C:\Program Files\Apache Software Foundation\Tomcat 7.0\lib\servlet-api.jar"/>
+    </target>
+
+    <target name="create" depends ="compile">
+        <delete dir= "${server}\" />
+        <mkdir dir= "${server}\" />
+    </target>
+
+    <target name="copy" depends ="create">
+        <copy todir="${server}" >
+            <fileset dir="${app}" includes="**"/>
+        </copy>
+    </target>
+</project>
