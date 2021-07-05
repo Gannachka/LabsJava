@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app  xmlns="http://java.sun.com/xml/ns/javaee"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"      
+      version="2.5">
+<display-name>AS_i13</display-name>
+
+<context-param>
+	<description>HTML page URL</description>  
+	<param-name>URL1</param-name> 
+	<param-value>http://localhost:8080/Lab_19/html/address.html</param-value>
+</context-param>
+<context-param>
+	<description>Servlet URL</description>  
+	<param-name>URL2</param-name> 
+	<param-value>http://localhost:8080/AS_i13/Sss</param-value>
+</context-param>
+
+<servlet>          
+	<servlet-name>Sss</servlet-name>          
+	<servlet-class>Sss</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Sss</servlet-name>       
+	<url-pattern>/Sss</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ggg</servlet-name>          
+	<servlet-class>Ggg</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ggg</servlet-name>       
+	<url-pattern>/Ggg</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ccc</servlet-name>          
+	<servlet-class>Ccc</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ccc</servlet-name>       
+	<url-pattern>/Ccc</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ccc1</servlet-name>          
+	<servlet-class>Ccc1</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ccc1</servlet-name>       
+	<url-pattern>/Ccc1</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ccc2</servlet-name>          
+	<servlet-class>Ccc2</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ccc2</servlet-name>       
+	<url-pattern>/Ccc2</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ccc3</servlet-name>          
+	<servlet-class>Ccc3</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ccc3</servlet-name>       
+	<url-pattern>/Ccc3</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Ccc5</servlet-name>          
+	<servlet-class>Ccc5</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Ccc5</servlet-name>       
+	<url-pattern>/Ccc5</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Aaa</servlet-name>          
+	<servlet-class>Aaa</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Aaa</servlet-name>       
+	<url-pattern>/Aaa</url-pattern>   
+</servlet-mapping>
+<servlet>          
+	<servlet-name>Bbb</servlet-name>          
+	<servlet-class>Bbb</servlet-class>   
+</servlet> 
+<servlet-mapping>        
+	<servlet-name>Bbb</servlet-name>       
+	<url-pattern>/Bbb</url-pattern>   
+</servlet-mapping>
+
+<filter>
+   <filter-name>F1</filter-name>
+   <filter-class>flt.F1</filter-class>  
+</filter>  
+<filter-mapping>
+   <filter-name>F1</filter-name> 
+   <url-pattern>/Ccc3</url-pattern>  
+</filter-mapping> 
+<filter>
+   <filter-name>F2</filter-name>
+   <filter-class>flt.F2</filter-class>  
+</filter>  
+<filter-mapping>
+   <filter-name>F2</filter-name> 
+   <url-pattern>/Ccc4.jsp</url-pattern>  
+</filter-mapping> 
+
+
+<filter-mapping>
+   <filter-name>F1</filter-name> 
+   <url-pattern>/Ccc5</url-pattern>  
+</filter-mapping> 
+<filter>
+   <filter-name>F3</filter-name>
+   <filter-class>flt.F3</filter-class>  
+</filter>  
+<filter-mapping>
+   <filter-name>F3</filter-name> 
+   <url-pattern>/Ccc5</url-pattern>  
+</filter-mapping> 
+  
+<filter-mapping>
+   <filter-name>F2</filter-name> 
+   <url-pattern>/Ccc5</url-pattern>  
+</filter-mapping> 
+
+
+<listener> 
+	<listener-class>lst.L1</listener-class> 
+</listener>
+<listener> 
+	<listener-class>lst.L2</listener-class> 
+</listener>
+
+<welcome-file-list>
+	<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+</web-app>

@@ -1,0 +1,34 @@
+<project name="lab25" default="copy">
+
+    <target name="init">
+        <echo message="Building lab25 Project" />
+        <property name="app" value="C:\Users\immed\OneDrive\Рабочий стол\Lab25\src\main"/>
+        <property name="server" value="C:\Program Files\Apache Software Foundation\Tomcat 9.0"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <delete verbose="true">
+            <fileset dir="${app}\webapp\WEB-INF\classes"/>
+        </delete>
+        <javac srcdir="${app}\java\com\example\lab25"
+               destdir="${app}\webapp\WEB-INF\classes"
+               includeantruntime="false"
+        >
+            <classpath>
+                <fileset dir="c:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="create" depends ="compile" >
+        <delete dir="${server}\webapps\lab25\" />
+        <mkdir dir= "${server}\webapps\lab25\" />
+    </target>
+
+    <target name="copy" depends ="create">
+        <copy todir="${server}\webapps\lab25\" >
+            <fileset dir="${app}\webapp" includes="**"/>
+        </copy>
+    </target>
+
+</project>

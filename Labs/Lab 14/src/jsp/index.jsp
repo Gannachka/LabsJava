@@ -41,13 +41,13 @@
     %>
 </head>
 <body>
-    <%=Salutation(n)%>
+    <%=Salutation(n)%>// выр
     <%=TableOfWeek(7)%>
     <br>
     <form>
         <button type="submit" name="time1" style="height: 70px; width: 150px" value="inc">GetCurrentTimeInclude</button>
     </form>
-    <% if("inc".equals(request.getParameter("time1"))){%>
+    <% if("inc".equals(request.getParameter("time1"))){%>//скр
         <%if((n>0) && (n<=5)){%>
             <jsp:include page="night.jsp"/>
         <%}else if((n>5) && (n<=12)){%>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript" src="js/crReq.js"></script>
+<script type="text/javascript"> var req = crReq();</script>
+<script type="text/javascript" src="js/Header.js"></script>
+<script type="text/javascript" src="js/XML.js"></script>
+<script type="text/javascript" src="js/Fill_JSON.js"></script>
+
+<b> AJAX Example (Header) </b>
+<form name="FHeader" action="#" method="POST">
+    <input name="x" type="text" value="0" size="5" maxlength="5" />
+    <input name="y" type="text" value="0" size="5" maxlength="5" />
+    <input name="BAdd" 	value="Add" type="button" size="10"
+           maxlength="10"
+           onclick="OnClick_Header(this.form.x, this.form.y, this.form.z)"/>
+    <input 	name="z" id="z" type="text" value="0" />
+</form>
+
+<b> AJAX Example (XML) </b>
+<form name="FXML" action="#" method="POST">
+    <input name="n" type="text" value="0" size="2" maxlength="2" />
+    <input name="BRandX" value="RandXML" type="button" size="10" maxlength="10"
+           onclick="OnClick_XML(this.form.n.value, document.getElementById('xml'))" />
+    <div><span id="xml" class="h2">.....</span></div>
+</form>
+
+<h3>AJAX Example (JSON)</h3>
+<form name="FJSON" action="#" method="POST">
+    <label><strong>n:</strong><input name="n" type="text" value="0" size="2" maxlength="2" /></label>
+    <br /><br /><input name="BRandJ" value="RandJSON" type="button" size="10" maxlength="10" onclick="OnClick_JSON(this.form.n.value,
+					document.getElementById('json'));" />
+    <br /><br /><span id="json" class="h2">.....</span>
+</form>
+
+</body>
+</html>

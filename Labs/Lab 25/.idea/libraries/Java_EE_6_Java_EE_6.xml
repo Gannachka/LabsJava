@@ -1,0 +1,54 @@
+<component name="libraryTable">
+  <library name="Java EE 6-Java EE 6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.15-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-logging-1.1.1-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/ecj-4.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/httpclient-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/httpclient5-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/httpclient5-cache-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/httpcore-4.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/jackrabbit-webdav-2.14.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/mssql-jdbc-9.2.1.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/sardine-5.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/tomcat7-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/websocket-api.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.15-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-logging-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.15-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../PROGRAMM/Apache Tomcat/lib/commons-codec-1.15-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

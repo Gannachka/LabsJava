@@ -1,0 +1,9 @@
+http://localhost:8080/lab_16/Ccc?CBean=old&Value1=8&Value2=7&Value3=6
+http://localhost:8080/lab_16/Ccc?CBean=new&Value1=8&Value2=7&Value3=6
+http://localhost:8080/lab_16/jsp/Ccc.jsp
+http://localhost:8080/lab_16/Ttt?URLn=1
+
+https://localhost:8080/lab16/Ccc?CBean=old&Value1=8&Value2=7&Value3=6
+http://localhost:48081/Lab_16/Ccc?CBean=new&Value1=8&Value2=7&Value3=6
+http://localhost:48081/Lab_16/jsp/Ccc.jsp
+http://localhost:48081/Lab_16/Ttt?URLn=1

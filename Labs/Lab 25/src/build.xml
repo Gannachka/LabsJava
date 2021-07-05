@@ -1,0 +1,48 @@
+<project name="Lab_24" default = "copy" >
+    <target name="init">
+        <echo message="Building Lab_24 Project" />
+        <property name="server" value="D:\PROGRAMM\Apache Tomcat\"/>
+        <property name="work" value="D:\Учеба\6 сем\Программирование в Интернет\Lab 25\"/>
+        <property name="numberLab" value="Lab_25"/>
+    </target>
+
+    <target name="compile" depends ="init">
+        <delete verbose="true">
+            <fileset dir="${work}build"/>
+        </delete>
+
+        <javac srcdir="${work}src" destdir="${work}build">
+        <classpath>
+            <fileset file="${server}lib\gson-2.8.2.jar"/>
+            <fileset file="${server}lib\*.jar"/>
+        </classpath>
+       </javac>
+    </target>
+
+    <target name="create" depends ="compile">
+        <delete dir= "${server}webapps\${numberLab}\" />
+        <mkdir dir= "${server}webapps\${numberLab}\" />
+        <mkdir dir= "${server}webapps\${numberLab}\WEB-INF" />
+        <mkdir dir="${server}webapps\${numberLab}\lib"/>
+    </target>
+
+    <target name="copy" depends ="create">
+        <copy todir="${server}\lib">
+            <fileset dir="${server}webapps\${numberLab}\lib"/>
+        </copy>
+        <copy file="${work}src\WEB-INF\web.xml"
+              todir="${server}webapps\${numberLab}\WEB-INF\"/>
+        <copy todir="${server}webapps\${numberLab}\WEB-INF\classes">
+            <fileset dir="${work}build"/>
+        </copy>
+        <copy todir="${server}webapps\${numberLab}\jsp">
+            <fileset dir="${work}src\jsp"/>
+        </copy>
+        <copy todir="${server}webapps\${numberLab}\js">
+            <fileset dir="${work}src\js"/>
+        </copy>
+        <copy todir="${server}webapps\${numberLab}\css">
+            <fileset dir="${work}src\css"/>
+        </copy>
+    </target>
+</project>

@@ -1,0 +1,50 @@
+<project name="lab_16" default = "copy" >
+    <target name="init">
+        <echo message="Building Lab16 Project" />
+        <property name="server" value="C:\Program Files\Apache Software Foundation\Tomcat 9.0\"/>
+        <property name="work" value="D:\6_sem\Java\LabsJava\Labs\lab16\"/>
+        <property name="16" value="lab_16"/>
+    </target>
+
+    <target name="compile" depends ="init">
+        <delete verbose="true">
+            <fileset dir="${work}build"/>
+        </delete>
+
+        <javac srcdir="${work}src" destdir="${work}build">
+        <classpath>
+            <fileset file="${server}lib\*.jar"/>
+            <fileset file="${server}lib\servlet-api.jar"/>
+            <fileset file="${server}lib\commons-httpclient-3.1.jar"/>
+            <fileset file="${server}lib\commons-logging-1.2.jar"/>
+            <fileset file="${server}lib\jsp-api.jar"/>
+        </classpath>
+       </javac>
+    </target>
+
+    <target name="create" depends ="compile">
+        <delete dir= "${server}webapps\${16}\" />
+        <mkdir dir= "${server}webapps\${16}\" />
+        <mkdir dir= "${server}webapps\${16}\WEB-INF" />
+        <mkdir dir="${server}webapps\${16}\lib"/>
+        <mkdir dir="${server}webapps\${16}\jsp"/>
+        <mkdir dir= "${server}webapps\${16}\html" />
+    </target>
+
+    <target name="copy" depends ="create">
+        <copy todir="${server}\lib">
+            <fileset dir="${server}webapps\${16}\lib"/>
+        </copy>
+        <copy file="${work}src\WEB-INF\web.xml"
+              todir="${server}webapps\${16}\WEB-INF\"/>
+        <copy todir="${server}webapps\${16}\jsp">
+            <fileset dir="${work}src\jsp"/>
+        </copy>
+        <copy todir="${server}webapps\${16}\html">
+            <fileset dir="${work}html"/>
+        </copy>
+        <copy todir="${server}webapps\${16}\WEB-INF\classes">
+            <fileset dir="${work}build"/>
+        </copy>
+    </target>
+</project>
